@@ -1,4 +1,5 @@
 return {
+  { "nvim-zh/better-escape.vim", enabled = false },
   {
     "goolord/alpha-nvim",
     opts = function(_, opts)

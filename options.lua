@@ -12,9 +12,9 @@ return {
     showbreak = "↪ ",
     showtabline = 0,
     termguicolors = true,
-    tabstop = 4,
-    softtabstop = 4,
-    shiftwidth = 4,
+    tabstop = 2,
+    softtabstop = 2,
+    shiftwidth = 2,
   },
   g = {
     mapleader = " ",

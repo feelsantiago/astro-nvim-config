@@ -3,6 +3,7 @@ local directions = require("hop.hint").HintDirection
 
 return {
   n = {
+    ["<C-c>"] = { "<Esc>", desc = "Remap ctrl-c to esc" },
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
@@ -120,5 +121,6 @@ return {
       desc = "Find with hop",
     },
     ["<leader>lj"] = { "<cmd>JsDoc<CR>", desc = "JSDoc" },
+    ["<leader>p"] = { "\"_dP", desc = "Paste witout copy" },
   },
 }
