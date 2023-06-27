@@ -44,6 +44,10 @@ return {
     branch = "topic/jsx-fix",
   },
   {
+    "dart-lang/dart-vim-plugin",
+    event = { "BufEnter *.dart" },
+  },
+  {
     "akinsho/flutter-tools.nvim",
     requires = "nvim-lua/plenary.nvim",
     config = function()

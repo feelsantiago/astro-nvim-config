@@ -26,5 +26,6 @@ return {
     ui_notifications_enabled = true,
     colors_name = "nord",
     transparent_enabled = true,
+    loaded_syntastic_dart_dartanalyzer_checker = 0,
   },
 }

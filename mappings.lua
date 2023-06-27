@@ -102,7 +102,8 @@ return {
     ["J"] = { ":m '>+1<CR>gv=gv", desc = "Move Line Down" },
     ["K"] = { ":m '<-2<CR>gv=gv", desc = "Move Line Up" },
     ["<leader>y"] = { [["+y]], desc = "Yank to clipboard" },
-    ["<leader>D"] = { [["_d]], desc = "Delete to the void" },
+    ["<leader>d"] = { [["_d]], desc = "Delete to the void" },
+    ["<leader>p"] = { "\"_dP", desc = "Paste witout copy" },
     ["<leader>sw"] = { function() require("spectre").open_visual() end, desc = "Select current word" },
     ["f"] = {
       function() hop.hint_char1 { direction = directions.AFTER_CURSOR, current_line_only = true } end,
@@ -121,6 +122,5 @@ return {
       desc = "Find with hop",
     },
     ["<leader>lj"] = { "<cmd>JsDoc<CR>", desc = "JSDoc" },
-    ["<leader>p"] = { "\"_dP", desc = "Paste witout copy" },
   },
 }
