@@ -42,7 +42,7 @@ return {
     },
     setup_handlers = {
       -- dartls = function(_, opts) require("flutter-tools").setup { lsp = opts } end,
-      rust_analyzer = function(_, opts) require("rust-tools").setup { server = opts } end
+      rust_analyzer = function(_, opts) require("rust-tools").setup { server = opts } end,
     },
     config = {
       dartls = {
@@ -64,19 +64,19 @@ return {
       },
     },
   },
-  highlights = {
-    init = {
-      Normal = { bg = "NONE", ctermbg = "NONE" },
-      NormalNC = { bg = "NONE", ctermbg = "NONE" },
-      CursorColumn = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
-      CursorLine = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
-      CursorLineNr = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
-      LineNr = {},
-      SignColumn = {},
-      StatusLine = {},
-      NeoTreeNormal = { bg = "NONE", ctermbg = "NONE" },
-      NeoTreeNormalNC = { bg = "NONE", ctermbg = "NONE" },
-    },
-  },
+  -- highlights = {
+  --   init = {
+  --     Normal = { bg = "NONE", ctermbg = "NONE" },
+  --     NormalNC = { bg = "NONE", ctermbg = "NONE" },
+  --     CursorColumn = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
+  --     CursorLine = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
+  --     CursorLineNr = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
+  --     LineNr = {},
+  --     SignColumn = {},
+  --     StatusLine = {},
+  --     NeoTreeNormal = { bg = "NONE", ctermbg = "NONE" },
+  --     NeoTreeNormalNC = { bg = "NONE", ctermbg = "NONE" },
+  --   },
+  -- },
   polish = function() end,
 }
